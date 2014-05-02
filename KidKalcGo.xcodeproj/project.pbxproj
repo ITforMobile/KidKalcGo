@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF23180B19125B7800EC59FE /* line3 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = BF23180A19125B7800EC59FE /* line3 copy.png */; };
+		BF23180D19125D0D00EC59FE /* line4.png in Resources */ = {isa = PBXBuildFile; fileRef = BF23180C19125D0D00EC59FE /* line4.png */; };
+		BF23180F19125D1300EC59FE /* line3 copyb.png in Resources */ = {isa = PBXBuildFile; fileRef = BF23180E19125D1300EC59FE /* line3 copyb.png */; };
 		BF64ACD918F0C7F700F329EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF64ACD818F0C7F700F329EB /* Foundation.framework */; };
 		BF64ACDB18F0C7F700F329EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF64ACDA18F0C7F700F329EB /* CoreGraphics.framework */; };
 		BF64ACDD18F0C7F700F329EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF64ACDC18F0C7F700F329EB /* UIKit.framework */; };
@@ -23,6 +26,13 @@
 		BF64AD0518F0C7F700F329EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF64AD0318F0C7F700F329EB /* InfoPlist.strings */; };
 		BF64AD0718F0C7F700F329EB /* KidKalcGoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF64AD0618F0C7F700F329EB /* KidKalcGoTests.m */; };
 		BF64AD1218F0C83400F329EB /* TimesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF64AD1118F0C83400F329EB /* TimesViewController.m */; };
+		BF98E9271911B38600998887 /* FlashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF98E9261911B38600998887 /* FlashViewController.m */; };
+		BF98E9291911B61A00998887 /* X.png in Resources */ = {isa = PBXBuildFile; fileRef = BF98E9281911B61A00998887 /* X.png */; };
+		BF98E92F1911C19700998887 /* kidkalc-go-chalk.png in Resources */ = {isa = PBXBuildFile; fileRef = BF98E92E1911C19700998887 /* kidkalc-go-chalk.png */; };
+		BF98E9311911C1E000998887 /* KidKalc-go-launch.png in Resources */ = {isa = PBXBuildFile; fileRef = BF98E9301911C1E000998887 /* KidKalc-go-launch.png */; };
+		BF98E9371911C35400998887 /* rocket-button.png in Resources */ = {isa = PBXBuildFile; fileRef = BF98E9361911C35400998887 /* rocket-button.png */; };
+		BF98E9391911C3CF00998887 /* flash-logo-sm.png in Resources */ = {isa = PBXBuildFile; fileRef = BF98E9381911C3CF00998887 /* flash-logo-sm.png */; };
+		BF98E93F1911C4EB00998887 /* timestile.png in Resources */ = {isa = PBXBuildFile; fileRef = BF98E93E1911C4EB00998887 /* timestile.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF23180A19125B7800EC59FE /* line3 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line3 copy.png"; sourceTree = "<group>"; };
+		BF23180C19125D0D00EC59FE /* line4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line4.png; sourceTree = "<group>"; };
+		BF23180E19125D1300EC59FE /* line3 copyb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line3 copyb.png"; sourceTree = "<group>"; };
 		BF64ACD518F0C7F700F329EB /* KidKalcGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidKalcGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF64ACD818F0C7F700F329EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BF64ACDA18F0C7F700F329EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,6 +72,14 @@
 		BF64AD0618F0C7F700F329EB /* KidKalcGoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KidKalcGoTests.m; sourceTree = "<group>"; };
 		BF64AD1018F0C83400F329EB /* TimesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimesViewController.h; sourceTree = "<group>"; };
 		BF64AD1118F0C83400F329EB /* TimesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimesViewController.m; sourceTree = "<group>"; };
+		BF98E9251911B38600998887 /* FlashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashViewController.h; sourceTree = "<group>"; };
+		BF98E9261911B38600998887 /* FlashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashViewController.m; sourceTree = "<group>"; };
+		BF98E9281911B61A00998887 /* X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X.png; sourceTree = "<group>"; };
+		BF98E92E1911C19700998887 /* kidkalc-go-chalk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kidkalc-go-chalk.png"; sourceTree = "<group>"; };
+		BF98E9301911C1E000998887 /* KidKalc-go-launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KidKalc-go-launch.png"; sourceTree = "<group>"; };
+		BF98E9361911C35400998887 /* rocket-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rocket-button.png"; sourceTree = "<group>"; };
+		BF98E9381911C3CF00998887 /* flash-logo-sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash-logo-sm.png"; sourceTree = "<group>"; };
+		BF98E93E1911C4EB00998887 /* timestile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timestile.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +109,14 @@
 		BF64ACCC18F0C7F700F329EB = {
 			isa = PBXGroup;
 			children = (
+				BF23180A19125B7800EC59FE /* line3 copy.png */,
+				BF98E93E1911C4EB00998887 /* timestile.png */,
+				BF23180C19125D0D00EC59FE /* line4.png */,
+				BF23180E19125D1300EC59FE /* line3 copyb.png */,
+				BF98E9381911C3CF00998887 /* flash-logo-sm.png */,
+				BF98E9361911C35400998887 /* rocket-button.png */,
+				BF98E92E1911C19700998887 /* kidkalc-go-chalk.png */,
+				BF98E9301911C1E000998887 /* KidKalc-go-launch.png */,
 				BF64ACDE18F0C7F700F329EB /* KidKalcGo */,
 				BF64AD0018F0C7F700F329EB /* KidKalcGoTests */,
 				BF64ACD718F0C7F700F329EB /* Frameworks */,
@@ -118,11 +147,14 @@
 		BF64ACDE18F0C7F700F329EB /* KidKalcGo */ = {
 			isa = PBXGroup;
 			children = (
+				BF98E9281911B61A00998887 /* X.png */,
 				BF64ACE718F0C7F700F329EB /* AppDelegate.h */,
 				BF64ACE818F0C7F700F329EB /* AppDelegate.m */,
 				BF64ACEA18F0C7F700F329EB /* Main.storyboard */,
 				BF64AD1018F0C83400F329EB /* TimesViewController.h */,
 				BF64AD1118F0C83400F329EB /* TimesViewController.m */,
+				BF98E9251911B38600998887 /* FlashViewController.h */,
+				BF98E9261911B38600998887 /* FlashViewController.m */,
 				BF64ACED18F0C7F700F329EB /* MainViewController.h */,
 				BF64ACEE18F0C7F700F329EB /* MainViewController.m */,
 				BF64ACF018F0C7F700F329EB /* FlipsideViewController.h */,
@@ -238,9 +270,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF98E9311911C1E000998887 /* KidKalc-go-launch.png in Resources */,
+				BF98E9291911B61A00998887 /* X.png in Resources */,
+				BF98E92F1911C19700998887 /* kidkalc-go-chalk.png in Resources */,
+				BF98E93F1911C4EB00998887 /* timestile.png in Resources */,
 				BF64ACF418F0C7F700F329EB /* Images.xcassets in Resources */,
+				BF98E9371911C35400998887 /* rocket-button.png in Resources */,
+				BF23180D19125D0D00EC59FE /* line4.png in Resources */,
+				BF98E9391911C3CF00998887 /* flash-logo-sm.png in Resources */,
 				BF64ACE318F0C7F700F329EB /* InfoPlist.strings in Resources */,
 				BF64ACEC18F0C7F700F329EB /* Main.storyboard in Resources */,
+				BF23180F19125D1300EC59FE /* line3 copyb.png in Resources */,
+				BF23180B19125B7800EC59FE /* line3 copy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +305,7 @@
 				BF64ACEF18F0C7F700F329EB /* MainViewController.m in Sources */,
 				BF64ACF218F0C7F700F329EB /* FlipsideViewController.m in Sources */,
 				BF64ACE518F0C7F700F329EB /* main.m in Sources */,
+				BF98E9271911B38600998887 /* FlashViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +433,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KidKalcGo/KidKalcGo-Prefix.pch";
 				INFOPLIST_FILE = "KidKalcGo/KidKalcGo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -404,7 +448,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KidKalcGo/KidKalcGo-Prefix.pch";
 				INFOPLIST_FILE = "KidKalcGo/KidKalcGo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -468,6 +514,7 @@
 				BF64AD0C18F0C7F700F329EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF64AD0D18F0C7F700F329EB /* Build configuration list for PBXNativeTarget "KidKalcGoTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +523,7 @@
 				BF64AD0F18F0C7F700F329EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
