@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>050B705D-886B-48AF-BB3B-C5BF4E756901</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KidKalcGo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2D5D5E89-3DC8-420C-AE71-5683FDE625F4</key>
+		<string>ssh://github.com/ITforMobile/KidKalcGo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>KidKalcGo/KidKalcGo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2D5D5E89-3DC8-420C-AE71-5683FDE625F4</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/ITforMobile/KidKalcGo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2D5D5E89-3DC8-420C-AE71-5683FDE625F4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2D5D5E89-3DC8-420C-AE71-5683FDE625F4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KidKalcGo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

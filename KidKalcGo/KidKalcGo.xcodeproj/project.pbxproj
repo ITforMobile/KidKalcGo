@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF6032B3192781930010E2C9 /* kidkalc-go-chalk.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6032B1192781930010E2C9 /* kidkalc-go-chalk.png */; };
+		BF6032B4192781930010E2C9 /* KidKalc-go-launch.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6032B2192781930010E2C9 /* KidKalc-go-launch.png */; };
+		BF6032B61927821E0010E2C9 /* flash-logo-sm.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6032B51927821E0010E2C9 /* flash-logo-sm.png */; };
+		BF6032B81927822C0010E2C9 /* rocket-button.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6032B71927822C0010E2C9 /* rocket-button.png */; };
+		BF6032BA192782350010E2C9 /* timestile.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6032B9192782350010E2C9 /* timestile.png */; };
+		BF6032BC1927946D0010E2C9 /* X.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6032BB1927946D0010E2C9 /* X.png */; };
+		BF6032BE192794790010E2C9 /* x_2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6032BD192794790010E2C9 /* x_2.png */; };
+		BF6032C019279D920010E2C9 /* equal.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6032BF19279D910010E2C9 /* equal.png */; };
+		BF6032C219279DAF0010E2C9 /* x_3.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6032C119279DAF0010E2C9 /* x_3.png */; };
+		BF6032C419279E1B0010E2C9 /* equal2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6032C319279E1B0010E2C9 /* equal2.png */; };
+		BF6032C81927AC850010E2C9 /* line3 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6032C51927AC850010E2C9 /* line3 copy.png */; };
+		BF6032C91927AC850010E2C9 /* line3 copyb.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6032C61927AC850010E2C9 /* line3 copyb.png */; };
+		BF6032CA1927AC850010E2C9 /* line4.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6032C71927AC850010E2C9 /* line4.png */; };
+		BF7E0A551926276300538192 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7E0A541926276300538192 /* Foundation.framework */; };
+		BF7E0A571926276300538192 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7E0A561926276300538192 /* CoreGraphics.framework */; };
+		BF7E0A591926276300538192 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7E0A581926276300538192 /* UIKit.framework */; };
+		BF7E0A5F1926276300538192 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF7E0A5D1926276300538192 /* InfoPlist.strings */; };
+		BF7E0A611926276300538192 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7E0A601926276300538192 /* main.m */; };
+		BF7E0A651926276300538192 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7E0A641926276300538192 /* AppDelegate.m */; };
+		BF7E0A681926276300538192 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7E0A661926276300538192 /* Main.storyboard */; };
+		BF7E0A6B1926276300538192 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7E0A6A1926276300538192 /* MainViewController.m */; };
+		BF7E0A6E1926276300538192 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7E0A6D1926276300538192 /* FlipsideViewController.m */; };
+		BF7E0A701926276300538192 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF7E0A6F1926276300538192 /* Images.xcassets */; };
+		BF7E0A771926276300538192 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7E0A761926276300538192 /* XCTest.framework */; };
+		BF7E0A781926276300538192 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7E0A541926276300538192 /* Foundation.framework */; };
+		BF7E0A791926276300538192 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7E0A581926276300538192 /* UIKit.framework */; };
+		BF7E0A811926276300538192 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF7E0A7F1926276300538192 /* InfoPlist.strings */; };
+		BF7E0A831926276300538192 /* KidKalcGoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7E0A821926276300538192 /* KidKalcGoTests.m */; };
+		BFDF44E7192A321700DDE06B /* TimesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDF44E6192A321700DDE06B /* TimesViewController.m */; };
+		BFDF44EA192A323B00DDE06B /* FlashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDF44E9192A323B00DDE06B /* FlashViewController.m */; };
+		BFF35C07192A1AB400F1946C /* line4_35.png in Resources */ = {isa = PBXBuildFile; fileRef = BFF35C06192A1AB400F1946C /* line4_35.png */; };
+		BFF35C09192A1C3700F1946C /* line4_37.png in Resources */ = {isa = PBXBuildFile; fileRef = BFF35C08192A1C3700F1946C /* line4_37.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF7E0A7A1926276300538192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF7E0A491926276300538192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF7E0A501926276300538192;
+			remoteInfo = KidKalcGo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF6032B1192781930010E2C9 /* kidkalc-go-chalk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kidkalc-go-chalk.png"; sourceTree = "<group>"; };
+		BF6032B2192781930010E2C9 /* KidKalc-go-launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KidKalc-go-launch.png"; sourceTree = "<group>"; };
+		BF6032B51927821E0010E2C9 /* flash-logo-sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash-logo-sm.png"; sourceTree = "<group>"; };
+		BF6032B71927822C0010E2C9 /* rocket-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rocket-button.png"; sourceTree = "<group>"; };
+		BF6032B9192782350010E2C9 /* timestile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timestile.png; sourceTree = "<group>"; };
+		BF6032BB1927946D0010E2C9 /* X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X.png; sourceTree = "<group>"; };
+		BF6032BD192794790010E2C9 /* x_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x_2.png; sourceTree = "<group>"; };
+		BF6032BF19279D910010E2C9 /* equal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = equal.png; sourceTree = "<group>"; };
+		BF6032C119279DAF0010E2C9 /* x_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x_3.png; sourceTree = "<group>"; };
+		BF6032C319279E1B0010E2C9 /* equal2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = equal2.png; sourceTree = "<group>"; };
+		BF6032C51927AC850010E2C9 /* line3 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line3 copy.png"; sourceTree = "<group>"; };
+		BF6032C61927AC850010E2C9 /* line3 copyb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line3 copyb.png"; sourceTree = "<group>"; };
+		BF6032C71927AC850010E2C9 /* line4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line4.png; sourceTree = "<group>"; };
+		BF7E0A511926276300538192 /* KidKalcGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidKalcGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7E0A541926276300538192 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF7E0A561926276300538192 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF7E0A581926276300538192 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF7E0A5C1926276300538192 /* KidKalcGo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KidKalcGo-Info.plist"; sourceTree = "<group>"; };
+		BF7E0A5E1926276300538192 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF7E0A601926276300538192 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF7E0A621926276300538192 /* KidKalcGo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KidKalcGo-Prefix.pch"; sourceTree = "<group>"; };
+		BF7E0A631926276300538192 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF7E0A641926276300538192 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF7E0A671926276300538192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF7E0A691926276300538192 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BF7E0A6A1926276300538192 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BF7E0A6C1926276300538192 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		BF7E0A6D1926276300538192 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		BF7E0A6F1926276300538192 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF7E0A751926276300538192 /* KidKalcGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KidKalcGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7E0A761926276300538192 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BF7E0A7E1926276300538192 /* KidKalcGoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KidKalcGoTests-Info.plist"; sourceTree = "<group>"; };
+		BF7E0A801926276300538192 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF7E0A821926276300538192 /* KidKalcGoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KidKalcGoTests.m; sourceTree = "<group>"; };
+		BFDF44E5192A321700DDE06B /* TimesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimesViewController.h; sourceTree = "<group>"; };
+		BFDF44E6192A321700DDE06B /* TimesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimesViewController.m; sourceTree = "<group>"; };
+		BFDF44E8192A323B00DDE06B /* FlashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashViewController.h; sourceTree = "<group>"; };
+		BFDF44E9192A323B00DDE06B /* FlashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashViewController.m; sourceTree = "<group>"; };
+		BFF35C06192A1AB400F1946C /* line4_35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line4_35.png; sourceTree = "<group>"; };
+		BFF35C08192A1C3700F1946C /* line4_37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line4_37.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF7E0A4E1926276300538192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7E0A571926276300538192 /* CoreGraphics.framework in Frameworks */,
+				BF7E0A591926276300538192 /* UIKit.framework in Frameworks */,
+				BF7E0A551926276300538192 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7E0A721926276300538192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7E0A771926276300538192 /* XCTest.framework in Frameworks */,
+				BF7E0A791926276300538192 /* UIKit.framework in Frameworks */,
+				BF7E0A781926276300538192 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF7E0A481926276300538192 = {
+			isa = PBXGroup;
+			children = (
+				BF7E0A5A1926276300538192 /* KidKalcGo */,
+				BF7E0A7C1926276300538192 /* KidKalcGoTests */,
+				BF7E0A531926276300538192 /* Frameworks */,
+				BF7E0A521926276300538192 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF7E0A521926276300538192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF7E0A511926276300538192 /* KidKalcGo.app */,
+				BF7E0A751926276300538192 /* KidKalcGoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF7E0A531926276300538192 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF7E0A541926276300538192 /* Foundation.framework */,
+				BF7E0A561926276300538192 /* CoreGraphics.framework */,
+				BF7E0A581926276300538192 /* UIKit.framework */,
+				BF7E0A761926276300538192 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF7E0A5A1926276300538192 /* KidKalcGo */ = {
+			isa = PBXGroup;
+			children = (
+				BF6032C51927AC850010E2C9 /* line3 copy.png */,
+				BFF35C08192A1C3700F1946C /* line4_37.png */,
+				BF6032C61927AC850010E2C9 /* line3 copyb.png */,
+				BFF35C06192A1AB400F1946C /* line4_35.png */,
+				BF6032C71927AC850010E2C9 /* line4.png */,
+				BF6032C319279E1B0010E2C9 /* equal2.png */,
+				BF6032C119279DAF0010E2C9 /* x_3.png */,
+				BF6032BF19279D910010E2C9 /* equal.png */,
+				BF6032BD192794790010E2C9 /* x_2.png */,
+				BF6032B71927822C0010E2C9 /* rocket-button.png */,
+				BF6032BB1927946D0010E2C9 /* X.png */,
+				BF6032B51927821E0010E2C9 /* flash-logo-sm.png */,
+				BF6032B1192781930010E2C9 /* kidkalc-go-chalk.png */,
+				BF6032B9192782350010E2C9 /* timestile.png */,
+				BF6032B2192781930010E2C9 /* KidKalc-go-launch.png */,
+				BF7E0A631926276300538192 /* AppDelegate.h */,
+				BF7E0A641926276300538192 /* AppDelegate.m */,
+				BF7E0A661926276300538192 /* Main.storyboard */,
+				BFDF44E8192A323B00DDE06B /* FlashViewController.h */,
+				BFDF44E9192A323B00DDE06B /* FlashViewController.m */,
+				BFDF44E5192A321700DDE06B /* TimesViewController.h */,
+				BFDF44E6192A321700DDE06B /* TimesViewController.m */,
+				BF7E0A691926276300538192 /* MainViewController.h */,
+				BF7E0A6A1926276300538192 /* MainViewController.m */,
+				BF7E0A6C1926276300538192 /* FlipsideViewController.h */,
+				BF7E0A6D1926276300538192 /* FlipsideViewController.m */,
+				BF7E0A6F1926276300538192 /* Images.xcassets */,
+				BF7E0A5B1926276300538192 /* Supporting Files */,
+			);
+			path = KidKalcGo;
+			sourceTree = "<group>";
+		};
+		BF7E0A5B1926276300538192 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF7E0A5C1926276300538192 /* KidKalcGo-Info.plist */,
+				BF7E0A5D1926276300538192 /* InfoPlist.strings */,
+				BF7E0A601926276300538192 /* main.m */,
+				BF7E0A621926276300538192 /* KidKalcGo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF7E0A7C1926276300538192 /* KidKalcGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF7E0A821926276300538192 /* KidKalcGoTests.m */,
+				BF7E0A7D1926276300538192 /* Supporting Files */,
+			);
+			path = KidKalcGoTests;
+			sourceTree = "<group>";
+		};
+		BF7E0A7D1926276300538192 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF7E0A7E1926276300538192 /* KidKalcGoTests-Info.plist */,
+				BF7E0A7F1926276300538192 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF7E0A501926276300538192 /* KidKalcGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF7E0A861926276300538192 /* Build configuration list for PBXNativeTarget "KidKalcGo" */;
+			buildPhases = (
+				BF7E0A4D1926276300538192 /* Sources */,
+				BF7E0A4E1926276300538192 /* Frameworks */,
+				BF7E0A4F1926276300538192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KidKalcGo;
+			productName = KidKalcGo;
+			productReference = BF7E0A511926276300538192 /* KidKalcGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF7E0A741926276300538192 /* KidKalcGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF7E0A891926276300538192 /* Build configuration list for PBXNativeTarget "KidKalcGoTests" */;
+			buildPhases = (
+				BF7E0A711926276300538192 /* Sources */,
+				BF7E0A721926276300538192 /* Frameworks */,
+				BF7E0A731926276300538192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF7E0A7B1926276300538192 /* PBXTargetDependency */,
+			);
+			name = KidKalcGoTests;
+			productName = KidKalcGoTests;
+			productReference = BF7E0A751926276300538192 /* KidKalcGoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF7E0A491926276300538192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = KeithMobile;
+				TargetAttributes = {
+					BF7E0A501926276300538192 = {
+						DevelopmentTeam = QAJNCNA729;
+					};
+					BF7E0A741926276300538192 = {
+						TestTargetID = BF7E0A501926276300538192;
+					};
+				};
+			};
+			buildConfigurationList = BF7E0A4C1926276300538192 /* Build configuration list for PBXProject "KidKalcGo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF7E0A481926276300538192;
+			productRefGroup = BF7E0A521926276300538192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF7E0A501926276300538192 /* KidKalcGo */,
+				BF7E0A741926276300538192 /* KidKalcGoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF7E0A4F1926276300538192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6032C219279DAF0010E2C9 /* x_3.png in Resources */,
+				BF6032BC1927946D0010E2C9 /* X.png in Resources */,
+				BF6032BE192794790010E2C9 /* x_2.png in Resources */,
+				BF6032BA192782350010E2C9 /* timestile.png in Resources */,
+				BF6032B4192781930010E2C9 /* KidKalc-go-launch.png in Resources */,
+				BF6032B61927821E0010E2C9 /* flash-logo-sm.png in Resources */,
+				BFF35C09192A1C3700F1946C /* line4_37.png in Resources */,
+				BF6032C419279E1B0010E2C9 /* equal2.png in Resources */,
+				BF6032C91927AC850010E2C9 /* line3 copyb.png in Resources */,
+				BF6032CA1927AC850010E2C9 /* line4.png in Resources */,
+				BF7E0A701926276300538192 /* Images.xcassets in Resources */,
+				BF6032B3192781930010E2C9 /* kidkalc-go-chalk.png in Resources */,
+				BF6032B81927822C0010E2C9 /* rocket-button.png in Resources */,
+				BF7E0A5F1926276300538192 /* InfoPlist.strings in Resources */,
+				BF6032C019279D920010E2C9 /* equal.png in Resources */,
+				BF7E0A681926276300538192 /* Main.storyboard in Resources */,
+				BF6032C81927AC850010E2C9 /* line3 copy.png in Resources */,
+				BFF35C07192A1AB400F1946C /* line4_35.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7E0A731926276300538192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7E0A811926276300538192 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF7E0A4D1926276300538192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDF44E7192A321700DDE06B /* TimesViewController.m in Sources */,
+				BF7E0A651926276300538192 /* AppDelegate.m in Sources */,
+				BF7E0A6B1926276300538192 /* MainViewController.m in Sources */,
+				BF7E0A6E1926276300538192 /* FlipsideViewController.m in Sources */,
+				BF7E0A611926276300538192 /* main.m in Sources */,
+				BFDF44EA192A323B00DDE06B /* FlashViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7E0A711926276300538192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7E0A831926276300538192 /* KidKalcGoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF7E0A7B1926276300538192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF7E0A501926276300538192 /* KidKalcGo */;
+			targetProxy = BF7E0A7A1926276300538192 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF7E0A5D1926276300538192 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF7E0A5E1926276300538192 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF7E0A661926276300538192 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF7E0A671926276300538192 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF7E0A7F1926276300538192 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF7E0A801926276300538192 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF7E0A841926276300538192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Keith Bailly (G6LRV576AA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Keith Bailly (G6LRV576AA)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "83ACBD17-F41C-4123-B5A1-EC39548586F4";
+				SDKROOT = iphoneos7.1;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		BF7E0A851926276300538192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Keith Bailly (G6LRV576AA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Keith Bailly (G6LRV576AA)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "83ACBD17-F41C-4123-B5A1-EC39548586F4";
+				SDKROOT = iphoneos7.1;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+		BF7E0A871926276300538192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KidKalcGo/KidKalcGo-Prefix.pch";
+				INFOPLIST_FILE = "KidKalcGo/KidKalcGo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF7E0A881926276300538192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KidKalcGo/KidKalcGo-Prefix.pch";
+				INFOPLIST_FILE = "KidKalcGo/KidKalcGo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BF7E0A8A1926276300538192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KidKalcGo.app/KidKalcGo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KidKalcGo/KidKalcGo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KidKalcGoTests/KidKalcGoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BF7E0A8B1926276300538192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KidKalcGo.app/KidKalcGo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KidKalcGo/KidKalcGo-Prefix.pch";
+				INFOPLIST_FILE = "KidKalcGoTests/KidKalcGoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF7E0A4C1926276300538192 /* Build configuration list for PBXProject "KidKalcGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7E0A841926276300538192 /* Debug */,
+				BF7E0A851926276300538192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF7E0A861926276300538192 /* Build configuration list for PBXNativeTarget "KidKalcGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7E0A871926276300538192 /* Debug */,
+				BF7E0A881926276300538192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF7E0A891926276300538192 /* Build configuration list for PBXNativeTarget "KidKalcGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7E0A8A1926276300538192 /* Debug */,
+				BF7E0A8B1926276300538192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF7E0A491926276300538192 /* Project object */;
+}
