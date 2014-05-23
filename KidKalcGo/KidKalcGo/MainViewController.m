@@ -20,6 +20,32 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+
+
+
+- (void)bannerViewDidLoadAd:(ADBannerView *)banner  {
+    [UIView beginAnimations:nil context:NULL];
+    [UIView setAnimationDuration:1];
+    [banner setAlpha:1];
+    [UIView commitAnimations];
+    
+}
+
+-(void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error {
+    [UIView beginAnimations:nil context:NULL];
+    [UIView setAnimationDuration:1];
+    [banner setAlpha:0];
+    [UIView commitAnimations];
+}
+
+
+
+
+
+
+
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

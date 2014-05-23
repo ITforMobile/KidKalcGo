@@ -7,7 +7,10 @@
 //
 
 #import "FlipsideViewController.h"
+#import <iAd/iAd.h>
 
-@interface MainViewController : UIViewController <FlipsideViewControllerDelegate>
+@interface MainViewController : UIViewController <FlipsideViewControllerDelegate, ADBannerViewDelegate>
+
 
 @end
+

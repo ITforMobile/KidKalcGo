@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF08BFD0192ECCB200A9038E /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF08BFCF192ECCB200A9038E /* iAd.framework */; };
+		BF08BFD4192ED1BC00A9038E /* kalvin_circle_copy.png in Resources */ = {isa = PBXBuildFile; fileRef = BF08BFD3192ED1BC00A9038E /* kalvin_circle_copy.png */; };
+		BF08BFD6192ED7AE00A9038E /* kidtopper_go.png in Resources */ = {isa = PBXBuildFile; fileRef = BF08BFD5192ED7AD00A9038E /* kidtopper_go.png */; };
+		BF08BFD8192ED8C400A9038E /* go_mathisfun.png in Resources */ = {isa = PBXBuildFile; fileRef = BF08BFD7192ED8C400A9038E /* go_mathisfun.png */; };
+		BF08BFDA192EE07C00A9038E /* kidakalc_go_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BF08BFD9192EE07C00A9038E /* kidakalc_go_1.png */; };
 		BF6032B3192781930010E2C9 /* kidkalc-go-chalk.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6032B1192781930010E2C9 /* kidkalc-go-chalk.png */; };
 		BF6032B4192781930010E2C9 /* KidKalc-go-launch.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6032B2192781930010E2C9 /* KidKalc-go-launch.png */; };
 		BF6032B61927821E0010E2C9 /* flash-logo-sm.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6032B51927821E0010E2C9 /* flash-logo-sm.png */; };
@@ -58,6 +63,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF08BFCF192ECCB200A9038E /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		BF08BFD3192ED1BC00A9038E /* kalvin_circle_copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kalvin_circle_copy.png; path = ../../../Desktop/kalvin_circle_copy.png; sourceTree = "<group>"; };
+		BF08BFD5192ED7AD00A9038E /* kidtopper_go.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kidtopper_go.png; path = ../../Desktop/kidtopper_go.png; sourceTree = "<group>"; };
+		BF08BFD7192ED8C400A9038E /* go_mathisfun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = go_mathisfun.png; path = ../../Desktop/go_mathisfun.png; sourceTree = "<group>"; };
+		BF08BFD9192EE07C00A9038E /* kidakalc_go_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kidakalc_go_1.png; path = ../../Desktop/kidakalc_go_1.png; sourceTree = "<group>"; };
 		BF6032B1192781930010E2C9 /* kidkalc-go-chalk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kidkalc-go-chalk.png"; sourceTree = "<group>"; };
 		BF6032B2192781930010E2C9 /* KidKalc-go-launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KidKalc-go-launch.png"; sourceTree = "<group>"; };
 		BF6032B51927821E0010E2C9 /* flash-logo-sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash-logo-sm.png"; sourceTree = "<group>"; };
@@ -111,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF08BFD0192ECCB200A9038E /* iAd.framework in Frameworks */,
 				BF7E0A571926276300538192 /* CoreGraphics.framework in Frameworks */,
 				BF7E0A591926276300538192 /* UIKit.framework in Frameworks */,
 				BF7E0A551926276300538192 /* Foundation.framework in Frameworks */,
@@ -133,6 +144,9 @@
 		BF7E0A481926276300538192 = {
 			isa = PBXGroup;
 			children = (
+				BF08BFD9192EE07C00A9038E /* kidakalc_go_1.png */,
+				BF08BFD5192ED7AD00A9038E /* kidtopper_go.png */,
+				BF08BFD7192ED8C400A9038E /* go_mathisfun.png */,
 				BF780925192E0BCE001DD6E1 /* home.png */,
 				BF7E0A5A1926276300538192 /* KidKalcGo */,
 				BF7E0A7C1926276300538192 /* KidKalcGoTests */,
@@ -153,6 +167,7 @@
 		BF7E0A531926276300538192 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BF08BFCF192ECCB200A9038E /* iAd.framework */,
 				BF7E0A541926276300538192 /* Foundation.framework */,
 				BF7E0A561926276300538192 /* CoreGraphics.framework */,
 				BF7E0A581926276300538192 /* UIKit.framework */,
@@ -165,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				BF780923192E0943001DD6E1 /* calculator_icon.png */,
+				BF08BFD3192ED1BC00A9038E /* kalvin_circle_copy.png */,
 				BF8200B0192CBD0E0020DFFB /* timesbutton.png */,
 				BF8200B1192CBD0E0020DFFB /* timesbutton_sm.png */,
 				BF6032C51927AC850010E2C9 /* line3 copy.png */,
@@ -311,6 +327,7 @@
 			files = (
 				BF8200B3192CBD0E0020DFFB /* timesbutton_sm.png in Resources */,
 				BF6032C219279DAF0010E2C9 /* x_3.png in Resources */,
+				BF08BFD8192ED8C400A9038E /* go_mathisfun.png in Resources */,
 				BF6032BC1927946D0010E2C9 /* X.png in Resources */,
 				BF6032BE192794790010E2C9 /* x_2.png in Resources */,
 				BF6032BA192782350010E2C9 /* timestile.png in Resources */,
@@ -321,9 +338,12 @@
 				BF6032C91927AC850010E2C9 /* line3 copyb.png in Resources */,
 				BF6032CA1927AC850010E2C9 /* line4.png in Resources */,
 				BF7E0A701926276300538192 /* Images.xcassets in Resources */,
+				BF08BFDA192EE07C00A9038E /* kidakalc_go_1.png in Resources */,
+				BF08BFD6192ED7AE00A9038E /* kidtopper_go.png in Resources */,
 				BF6032B3192781930010E2C9 /* kidkalc-go-chalk.png in Resources */,
 				BF6032B81927822C0010E2C9 /* rocket-button.png in Resources */,
 				BF780924192E0943001DD6E1 /* calculator_icon.png in Resources */,
+				BF08BFD4192ED1BC00A9038E /* kalvin_circle_copy.png in Resources */,
 				BF7E0A5F1926276300538192 /* InfoPlist.strings in Resources */,
 				BF8200AF192CBC910020DFFB /* flashbutton_sm.png in Resources */,
 				BF6032C019279D920010E2C9 /* equal.png in Resources */,
